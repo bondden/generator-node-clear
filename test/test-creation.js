@@ -29,7 +29,6 @@ describe('node generator', function () {
       '.jshintrc',
       '.travis.yml',
       '.editorconfig',
-      'Gruntfile.js',
       'package.json',
       'README.md'
     ];
@@ -67,7 +66,6 @@ describe('node generator', function () {
       '.gitignore',
       '.jshintrc',
       '.travis.yml',
-      'Gruntfile.js',
       'package.json',
       'README.md'
     ];

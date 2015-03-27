@@ -1,7 +1,7 @@
 {
-  "name": "generator-node",
-  "version": "0.7.0",
-  "description": "Create a Node.js module",
+  "name": "generator-node-clear",
+  "version": "0.8",
+  "description": "Modified Yeoman team's Node.js module generator. Gunt and Browserify excluded. http://yeoman.io",
   "keywords": [
     "yeoman-generator",
     "scaffold",
@@ -9,9 +9,9 @@
     "module",
     "cli"
   ],
-  "author": "Yeoman team",
+  "author": "Yeoman team + Denis Bondarenko",
   "main": "app",
-  "repository": "yeoman/generator-node",
+  "repository": "bondden/generator-node-clear",
   "scripts": {
     "test": "mocha --timeout 50000"
   },
@@ -20,7 +20,6 @@
     "yeoman-generator": "^0.18.3"
   },
   "devDependencies": {
-    "grunt": "^0.4.5",
     "mocha": "*",
     "shelljs": "^0.3.0"
   },
