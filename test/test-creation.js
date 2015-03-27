@@ -33,7 +33,6 @@ describe('node-clear generator', function () {
       'test/test.js',
       '.gitignore',
       '.jshintrc',
-      '.travis.yml',
       '.editorconfig',
       'package.json',
       'README.md'
@@ -71,7 +70,6 @@ describe('node-clear generator', function () {
       'test/test.js',
       '.gitignore',
       '.jshintrc',
-      '.travis.yml',
       'package.json',
       'README.md'
     ];
