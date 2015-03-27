@@ -4,7 +4,7 @@ var assert = require('yeoman-generator').assert;
 var helpers = require('yeoman-generator').test;
 var shelljs = require('shelljs');
 
-describe('node generator', function () {
+describe('node-clear generator', function () {
   beforeEach(function (done) {
     helpers.testDirectory(path.join(__dirname, 'temp'), function (err) {
       if (err) {
@@ -13,12 +13,12 @@ describe('node generator', function () {
       }
 
       this.app = helpers.createGenerator(
-        'node:app', [
-          '../../app',
+        'node-clear:app', [
+          '../../app'/*,
           [
             helpers.createDummyGenerator(),
             'mocha:app'
-          ]
+          ]*/
         ]
       );
       this.app.options['skip-install'] = true;
