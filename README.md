@@ -5,17 +5,22 @@
 Maintained by [Hemanth.HM](http://github.com/hemanth).
 
 
+>  Modified [Yeoman team](http://yeoman.io)'s Node.js module generator. Gunt and Browserify excluded.
+
+Maintained by [Denis Bondarenko](http://github.com/bondden).
+
+
 ## Install
 
 ```sh
-$ npm install --global generator-node
+$ npm install --global generator-node-clear
 ```
 
 
 ## Usage
 
 ```sh
-$ yo node
+$ yo node-clear
 ```
 
 *Note that this template will generate files in the current directory, so be sure to change to a new directory first if you don't want to overwrite existing files.*
@@ -23,4 +28,4 @@ $ yo node
 
 ## License
 
-MIT © Yeoman team
+MIT © Yeoman team, Denis Bondarenko
