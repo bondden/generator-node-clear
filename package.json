@@ -21,7 +21,8 @@
   },
   "devDependencies": {
     "mocha": "*",
-    "shelljs": "^0.3.0"
+    "shelljs": "^0.3.0",
+    "yeoman-generator":"*"
   },
   "engines": {
     "node": ">=0.12.0",
