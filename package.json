@@ -9,7 +9,7 @@
     "module",
     "cli"
   ],
-  "author": "Yeoman team + Denis Bondarenko",
+  "author": "Yeoman team and Denis Bondarenko",
   "main": "app",
   "repository": "bondden/generator-node-clear",
   "scripts": {
