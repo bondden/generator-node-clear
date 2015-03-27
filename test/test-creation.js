@@ -12,9 +12,15 @@ describe('node generator', function () {
         return;
       }
 
-      this.app = helpers.createGenerator('node:app', [
-        '../../app'
-      ]);
+      this.app = helpers.createGenerator(
+        'node:app', [
+          '../../app',
+          [
+            helpers.createDummyGenerator(),
+            'mocha:app'
+          ]
+        ]
+      );
       this.app.options['skip-install'] = true;
       done();
     }.bind(this));
