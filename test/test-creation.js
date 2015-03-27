@@ -35,7 +35,8 @@ describe('node-clear generator', function () {
       '.jshintrc',
       '.editorconfig',
       'package.json',
-      'README.md'
+      'README.md',
+      'travis.yml'
     ];
 
     helpers.mockPrompt(this.app, {
@@ -71,7 +72,8 @@ describe('node-clear generator', function () {
       '.gitignore',
       '.jshintrc',
       'package.json',
-      'README.md'
+      'README.md',
+      'travis.yml'
     ];
 
     helpers.mockPrompt(this.app, {
